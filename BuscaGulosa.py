@@ -50,7 +50,7 @@ citiesRoutes = {
    "Bonn":["Trier","Mainz","Köln" ],
 }
 
-citiesDistances: {
+citiesDistances = {
     "Rostock": [
         {"Rostock": 0}, {"Berlin": 250}, {"Dresden": 436}, {"Leipzig": 400}, {"Magdeburg": 295}, {"Lübeck": 120}, {"Braunschweig": 291},
         {"Hannover": 327}, {"Hamburg": 184}, {"Bremen": 301}, {"Munster": 458}, {"Köln": 601}, {"Düsseldorf": 577}, {"München": 793}, {"Ulm": 831},
@@ -167,3 +167,5 @@ citiesDistances: {
         {"Ingolstadt": 380}, {"Stuttgart": 264}, {"Baden": 213}, {"Frankfurt": 130}, {"Nürnberg": 318}, {"Mainz": 117}, {"Trier": 113},{"Bonn": 0},
         ],
 }
+
+print(citiesDistances["Bonn"][7]["Hannover"])
