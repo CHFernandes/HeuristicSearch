@@ -149,12 +149,12 @@ citiesDistances: {
     "Nürnberg": [
         {"Rostock": 648}, {"Berlin": 439}, {"Dresden": 259}, {"Leipzig": 229}, {"Magdeburg": 300}, {"Lübeck": 491}, {"Braunschweig": 315},
         {"Hannover": 338}, {"Hamburg": 461}, {"Bremen": 432}, {"Munster": 370}, {"Köln": 336}, {"Düsseldorf": 363}, {"München": 150}, {"Ulm": 142},
-        {"Ingolstadt": 80}, {"Stuttgart": 157}, {"Baden": 200}, {"Frankfurt": 189}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 321},{"Bonn": 318},
+        {"Ingolstadt": 80}, {"Stuttgart": 157}, {"Baden": 200}, {"Frankfurt": 189}, {"Nürnberg": 0}, {"Mainz": 211}, {"Trier": 321},{"Bonn": 318},
         ],
     "Mainz": [
         {"Rostock": 697}, {"Berlin": 574}, {"Dresden": 403}, {"Leipzig": 325}, {"Magdeburg": 334}, {"Lübeck": 460}, {"Braunschweig": 297},
         {"Hannover": 282}, {"Hamburg": 412}, {"Bremen": 344}, {"Munster": 222}, {"Köln": 140}, {"Düsseldorf": 172}, {"München": 318}, {"Ulm": 217},
-        {"Ingolstadt": 266}, {"Stuttgart": 151}, {"Baden": 110}, {"Frankfurt": 32}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 119},{"Bonn": 117},
+        {"Ingolstadt": 266}, {"Stuttgart": 151}, {"Baden": 110}, {"Frankfurt": 32}, {"Nürnberg": 211}, {"Mainz": 0}, {"Trier": 119},{"Bonn": 117},
         ],
     "Trier": [
         {"Rostock": 762}, {"Berlin": 719}, {"Dresden": 522}, {"Leipzig": 441}, {"Magdeburg": 600}, {"Lübeck": 650}, {"Braunschweig": 389},
