@@ -108,52 +108,52 @@ citiesDistances: {
         ],
     "Köln": [
         {"Rostock": 601}, {"Berlin": 573}, {"Dresden": 573}, {"Leipzig": 380}, {"Magdeburg": 350}, {"Lübeck": 412}, {"Braunschweig": 287},
-        {"Hannover": 249}, {"Hamburg": 357}, {"Bremen": 269}, {"Munster": 121}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
-        {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 134},{"Bonn": 25},
+        {"Hannover": 249}, {"Hamburg": 357}, {"Bremen": 269}, {"Munster": 121}, {"Köln": 0}, {"Düsseldorf": 34}, {"München": 456}, {"Ulm": 357},
+        {"Ingolstadt": 400}, {"Stuttgart": 288}, {"Baden": 238}, {"Frankfurt": 150}, {"Nürnberg": 336}, {"Mainz": 140}, {"Trier": 134},{"Bonn": 25},
         ],
     "Düsseldorf": [
         {"Rostock": 577}, {"Berlin": 564}, {"Dresden": 564}, {"Leipzig": 389}, {"Magdeburg": 350}, {"Lübeck": 394}, {"Braunschweig": 283},
-        {"Hannover": 240}, {"Hamburg": 339}, {"Bremen": 248}, {"Munster": 99}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 240}, {"Hamburg": 339}, {"Bremen": 248}, {"Munster": 99}, {"Köln": 34}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 164},{"Bonn": 59},
         ],
     "München": [
         {"Rostock": 793}, {"Berlin": 584}, {"Dresden": 359}, {"Leipzig": 360}, {"Magdeburg": 444}, {"Lübeck": 640}, {"Braunschweig": 464},
-        {"Hannover": 489}, {"Hamburg": 612}, {"Bremen": 583}, {"Munster": 509}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 489}, {"Hamburg": 612}, {"Bremen": 583}, {"Munster": 509}, {"Köln": 456}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 402},{"Bonn": 434},
         ], 
     "Ulm": [
         {"Rostock": 831}, {"Berlin": 622}, {"Dresden": 398}, {"Leipzig": 369}, {"Magdeburg": 431}, {"Lübeck": 610}, {"Braunschweig": 432},
-        {"Hannover": 442}, {"Hamburg": 573}, {"Bremen": 527}, {"Munster": 430}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 442}, {"Hamburg": 573}, {"Bremen": 527}, {"Munster": 430}, {"Köln": 357}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 287},{"Bonn": 333},
         ],
     "Ingolstadt": [
         {"Rostock": 718}, {"Berlin": 509}, {"Dresden": 303}, {"Leipzig": 294}, {"Magdeburg": 375}, {"Lübeck": 569}, {"Braunschweig": 394},
-        {"Hannover": 418}, {"Hamburg": 541}, {"Bremen": 513}, {"Munster": 445}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 418}, {"Hamburg": 541}, {"Bremen": 513}, {"Munster": 445}, {"Köln": 400}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 364},{"Bonn": 380},
         ],
     "Stuttgart": [
         {"Rostock": 831}, {"Berlin": 628}, {"Dresden": 412}, {"Leipzig": 264}, {"Magdeburg": 411}, {"Lübeck": 575}, {"Braunschweig": 399},
-        {"Hannover": 401}, {"Hamburg": 534}, {"Bremen": 478}, {"Munster": 370}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 401}, {"Hamburg": 534}, {"Bremen": 478}, {"Munster": 370}, {"Köln": 288}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 213},{"Bonn": 264},
         ],
     "Baden": [
         {"Rostock": 801}, {"Berlin": 678}, {"Dresden": 442}, {"Leipzig": 383}, {"Magdeburg": 415}, {"Lübeck": 562}, {"Braunschweig": 391},
-        {"Hannover": 385}, {"Hamburg": 517}, {"Bremen": 452}, {"Munster": 331}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 385}, {"Hamburg": 517}, {"Bremen": 452}, {"Munster": 331}, {"Köln": 238}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 152},{"Bonn": 213},
         ],
     "Frankfurt": [
         {"Rostock": 668}, {"Berlin": 545}, {"Dresden": 372}, {"Leipzig": 293}, {"Magdeburg": 304}, {"Lübeck": 438}, {"Braunschweig": 270},
-        {"Hannover": 260}, {"Hamburg": 391}, {"Bremen": 327}, {"Munster": 215}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 260}, {"Hamburg": 391}, {"Bremen": 327}, {"Munster": 215}, {"Köln": 150}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 150},{"Bonn": 130},
         ],
     "Nürnberg": [
         {"Rostock": 648}, {"Berlin": 439}, {"Dresden": 259}, {"Leipzig": 229}, {"Magdeburg": 300}, {"Lübeck": 491}, {"Braunschweig": 315},
-        {"Hannover": 338}, {"Hamburg": 461}, {"Bremen": 432}, {"Munster": 370}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 338}, {"Hamburg": 461}, {"Bremen": 432}, {"Munster": 370}, {"Köln": 336}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 321},{"Bonn": 318},
         ],
     "Mainz": [
         {"Rostock": 697}, {"Berlin": 574}, {"Dresden": 403}, {"Leipzig": 325}, {"Magdeburg": 334}, {"Lübeck": 460}, {"Braunschweig": 297},
-        {"Hannover": 282}, {"Hamburg": 412}, {"Bremen": 344}, {"Munster": 222}, {"Köln": 0}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
+        {"Hannover": 282}, {"Hamburg": 412}, {"Bremen": 344}, {"Munster": 222}, {"Köln": 140}, {"Düsseldorf": 0}, {"München": 0}, {"Ulm": 0},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 119},{"Bonn": 117},
         ],
     "Trier": [
