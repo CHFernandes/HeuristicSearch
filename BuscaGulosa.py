@@ -124,36 +124,36 @@ citiesDistances: {
     "Ulm": [
         {"Rostock": 831}, {"Berlin": 622}, {"Dresden": 398}, {"Leipzig": 369}, {"Magdeburg": 431}, {"Lübeck": 610}, {"Braunschweig": 432},
         {"Hannover": 442}, {"Hamburg": 573}, {"Bremen": 527}, {"Munster": 430}, {"Köln": 357}, {"Düsseldorf": 390}, {"München": 120}, {"Ulm": 0},
-        {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 287},{"Bonn": 333},
+        {"Ingolstadt": 113}, {"Stuttgart": 73}, {"Baden": 135}, {"Frankfurt": 215}, {"Nürnberg": 142}, {"Mainz": 217}, {"Trier": 287},{"Bonn": 333},
         ],
     "Ingolstadt": [
         {"Rostock": 718}, {"Berlin": 509}, {"Dresden": 303}, {"Leipzig": 294}, {"Magdeburg": 375}, {"Lübeck": 569}, {"Braunschweig": 394},
-        {"Hannover": 418}, {"Hamburg": 541}, {"Bremen": 513}, {"Munster": 445}, {"Köln": 400}, {"Düsseldorf": 430}, {"München": 70}, {"Ulm": 0},
+        {"Hannover": 418}, {"Hamburg": 541}, {"Bremen": 513}, {"Munster": 445}, {"Köln": 400}, {"Düsseldorf": 430}, {"München": 70}, {"Ulm": 113},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 364},{"Bonn": 380},
         ],
     "Stuttgart": [
         {"Rostock": 831}, {"Berlin": 628}, {"Dresden": 412}, {"Leipzig": 264}, {"Magdeburg": 411}, {"Lübeck": 575}, {"Braunschweig": 399},
-        {"Hannover": 401}, {"Hamburg": 534}, {"Bremen": 478}, {"Munster": 370}, {"Köln": 288}, {"Düsseldorf": 322}, {"München": 190}, {"Ulm": 0},
+        {"Hannover": 401}, {"Hamburg": 534}, {"Bremen": 478}, {"Munster": 370}, {"Köln": 288}, {"Düsseldorf": 322}, {"München": 190}, {"Ulm": 73},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 213},{"Bonn": 264},
         ],
     "Baden": [
         {"Rostock": 801}, {"Berlin": 678}, {"Dresden": 442}, {"Leipzig": 383}, {"Magdeburg": 415}, {"Lübeck": 562}, {"Braunschweig": 391},
-        {"Hannover": 385}, {"Hamburg": 517}, {"Bremen": 452}, {"Munster": 331}, {"Köln": 238}, {"Düsseldorf": 272}, {"München": 253}, {"Ulm": 0},
+        {"Hannover": 385}, {"Hamburg": 517}, {"Bremen": 452}, {"Munster": 331}, {"Köln": 238}, {"Düsseldorf": 272}, {"München": 253}, {"Ulm": 135},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 152},{"Bonn": 213},
         ],
     "Frankfurt": [
         {"Rostock": 668}, {"Berlin": 545}, {"Dresden": 372}, {"Leipzig": 293}, {"Magdeburg": 304}, {"Lübeck": 438}, {"Braunschweig": 270},
-        {"Hannover": 260}, {"Hamburg": 391}, {"Bremen": 327}, {"Munster": 215}, {"Köln": 150}, {"Düsseldorf": 180}, {"München": 306}, {"Ulm": 0},
+        {"Hannover": 260}, {"Hamburg": 391}, {"Bremen": 327}, {"Munster": 215}, {"Köln": 150}, {"Düsseldorf": 180}, {"München": 306}, {"Ulm": 215},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 150},{"Bonn": 130},
         ],
     "Nürnberg": [
         {"Rostock": 648}, {"Berlin": 439}, {"Dresden": 259}, {"Leipzig": 229}, {"Magdeburg": 300}, {"Lübeck": 491}, {"Braunschweig": 315},
-        {"Hannover": 338}, {"Hamburg": 461}, {"Bremen": 432}, {"Munster": 370}, {"Köln": 336}, {"Düsseldorf": 363}, {"München": 150}, {"Ulm": 0},
+        {"Hannover": 338}, {"Hamburg": 461}, {"Bremen": 432}, {"Munster": 370}, {"Köln": 336}, {"Düsseldorf": 363}, {"München": 150}, {"Ulm": 142},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 321},{"Bonn": 318},
         ],
     "Mainz": [
         {"Rostock": 697}, {"Berlin": 574}, {"Dresden": 403}, {"Leipzig": 325}, {"Magdeburg": 334}, {"Lübeck": 460}, {"Braunschweig": 297},
-        {"Hannover": 282}, {"Hamburg": 412}, {"Bremen": 344}, {"Munster": 222}, {"Köln": 140}, {"Düsseldorf": 172}, {"München": 318}, {"Ulm": 0},
+        {"Hannover": 282}, {"Hamburg": 412}, {"Bremen": 344}, {"Munster": 222}, {"Köln": 140}, {"Düsseldorf": 172}, {"München": 318}, {"Ulm": 217},
         {"Ingolstadt": 0}, {"Stuttgart": 0}, {"Baden": 0}, {"Frankfurt": 0}, {"Nürnberg": 0}, {"Mainz": 0}, {"Trier": 119},{"Bonn": 117},
         ],
     "Trier": [
