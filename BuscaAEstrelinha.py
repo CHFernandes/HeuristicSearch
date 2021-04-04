@@ -36,7 +36,7 @@ citiesRoutes = {
    "Hamburg": ["Lübeck", "Hannover", "Bremen"],
    "Bremen": ["Hamburg", "Hannover", "Munster"],
    "Munster": ["Bremen", "Hannover", "Braunschweig", "Düsseldorf", "Köln"],
-   "Köln":["Düsseldorf","Bonn","Munster","Mainz"],
+   "Köln":["Düsseldorf","Bonn","Munster" ],
    "Düsseldorf":["Munster","Köln","Mainz","Braunschweig"],
    "München":["Ulm","Ingolstadt"],
    "Ulm":["Ingolstadt","München","Stuttgart"],
@@ -168,56 +168,28 @@ citiesDistances = {
         ],
 }
 
-print("Selecione uma cidade de partida: \n")
-
-i = 0
-
-while i < len(citiesArray):
-    nextItem = str(i+1)
-    print(nextItem + " - " + citiesArray[i])
-    i+=1
-
-print()
-selectedCityId = int(input())
-selectedCityId-=1
-
-selectedCity = citiesArray[selectedCityId]
-
-print("Selecione uma cidade de parada \n")
-
-i = 0
-
-while i < len(citiesArray):
-    nextItem = str(i+1)
-    print(nextItem + " - " + citiesArray[i])
-    i+=1
-
-print()
-selectedEndingCityId = int(input())
-selectedEndingCityId-=1
-
-selectedEndingCity = citiesArray[selectedEndingCityId]
-
-print()
-
-found = False
-visited = {}
-i = 1
-city = selectedCity
-
-visited[city] = i 
-
-while found == False:
-    lessDistantCity = None
-    for neighbor in citiesRoutes.get(city):
-        if lessDistantCity == None or citiesDistances[lessDistantCity][selectedEndingCityId][selectedEndingCity] > citiesDistances[neighbor][selectedEndingCityId][selectedEndingCity]:
-            if not visited.get(neighbor):
-                lessDistantCity = neighbor
-    i += 1
-    city = lessDistantCity
-    visited[city] = i
-
-    if city == selectedEndingCity:
-        found = True
-    
-print(visited)
+citiesCost = {
+   "Rostock": [{"Berlin": 230}, {"Magdeburg": 332}, {"Lübeck": 140}],
+   "Berlin": [{"Rostock": 230}, {"Magdeburg": 155}, {"Dresden": 191}],
+   "Dresden": [{"Berlin": 191}, {"Leipzig": 112}],
+   "Leipzig": [{"Dresden": 112}, {"Magdeburg": 125}, {"Nürnberg": 282}],
+   "Magdeburg": [{"Rostock": 332}, {"Berlin": 155}, {"Leipzig": 125}, {"Braunschweig": 96}, {"Lübeck": 337}],
+   "Lübeck": [{"Rostock": 140}, {"Magdeburg": 337}, {"Braunschweig": 259}, {"Hannover": 210}, {"Hamburg": 67}],
+   "Braunschweig": [{"Lübeck": 259}, {"Magdeburg": 96}, {"Nürnberg": 458}, {"Mainz": 363}, {"Düsseldorf": 349}, {"Munster": 253}, {"Hannover": 64}],
+   "Hannover": [{"Lübeck": 210}, {"Braunschweig": 64}, {"Munster": 195}, {"Bremen": 124}, {"Hamburg": 152}],
+   "Hamburg": [{"Lübeck": 67}, {"Hannover": 152}, {"Bremen": 123}],
+   "Bremen": [{"Hamburg": 123}, {"Hannover": 124}, {"Munster": 171}],
+   "Munster": [{"Bremen": 171}, {"Hannover": 195}, {"Braunschweig": 253}, {"Düsseldorf": 123}, {"Köln": 156}],
+   "Köln":[{"Düsseldorf": 40},{"Bonn": 30},{"Munster": 156}, {"Mainz": 177}],
+   "Düsseldorf":[{"Munster": 123},{"Köln": 40},{"Mainz": 214},{"Braunschweig": 349}],
+   "München":[{"Ulm": 140},{"Ingolstadt": 83}],
+   "Ulm":[{"Ingolstadt": 159},{"München": 140},{"Stuttgart": 94}],
+   "Ingolstadt":[{"Ulm": 159},{"München": 83},{"Stuttgart": 238},{"Nürnberg": 95}],
+   "Stuttgart":[{"Frankfurt": 207},{"Baden": 80},{"Ulm": 94},{"Ingolstadt": 238}],
+   "Baden":[{"Frankfurt": 144},{"Stuttgart": 80}],
+   "Frankfurt":[{"Nürnberg": 225},{"Mainz": 40},{"Trier": 194},{"Baden": 144},{"Stuttgart": 207}],
+   "Nürnberg": [{"Frankfurt": 225}, {"Ingolstadt": 95},{"Leipzig": 282},{"Braunschweig": 458},{"Mainz": 255}],
+   "Mainz": [{"Frankfurt": 40},{"Trier": 156},{"Nürnberg": 255},{"Braunschweig": 363},{"Düsseldorf": 214},{"Köln": 177},{"Bonn": 159}],
+   "Trier": [{"Bonn": 161},{"Frankfurt": 194},{"Mainz": 156}],
+   "Bonn":[{"Trier": 161},{"Mainz": 159},{"Köln": 30}],
+}
