@@ -168,4 +168,56 @@ citiesDistances = {
         ],
 }
 
-print(citiesDistances["Bonn"][7]["Hannover"])
+print("Selecione uma cidade de partida: \n")
+
+i = 0
+
+while i < len(citiesArray):
+    nextItem = str(i+1)
+    print(nextItem + " - " + citiesArray[i])
+    i+=1
+
+print()
+selectedCityId = int(input())
+selectedCityId-=1
+
+selectedCity = citiesArray[selectedCityId]
+
+print("Selecione uma cidade de parada \n")
+
+i = 0
+
+while i < len(citiesArray):
+    nextItem = str(i+1)
+    print(nextItem + " - " + citiesArray[i])
+    i+=1
+
+print()
+selectedEndingCityId = int(input())
+selectedEndingCityId-=1
+
+selectedEndingCity = citiesArray[selectedEndingCityId]
+
+print()
+
+found = False
+visited = {}
+i = 1
+city = selectedCity
+
+visited[city] = i 
+
+while found == False:
+    lessDistantCity = None
+    for neighbor in citiesRoutes.get(city):
+        if lessDistantCity == None or citiesDistances[lessDistantCity][selectedEndingCityId][selectedEndingCity] > citiesDistances[neighbor][selectedEndingCityId][selectedEndingCity]:
+            if not visited.get(neighbor):
+                lessDistantCity = neighbor
+    i += 1
+    city = lessDistantCity
+    visited[city] = i
+
+    if city == selectedEndingCity:
+        found = True
+    
+print(visited)
