@@ -243,19 +243,22 @@ while found == False:
     lessDistantCity = None
     lessDistantSum = None
     currentSum = sumCosts
+    cityValue = 0
     for neighbor in citiesRoutes.get(city):
         currentSum = sumCosts + findCostByKey(city, neighbor) + citiesDistances[neighbor][selectedEndingCityId][selectedEndingCity]
         if lessDistantCity == None and lessDistantSum == None:
             if not visited.get(neighbor):
                 lessDistantCity = neighbor
                 lessDistantSum = currentSum
+                cityValue = citiesDistances[neighbor][selectedEndingCityId][selectedEndingCity]
         elif citiesDistances[lessDistantCity][selectedEndingCityId][selectedEndingCity] > citiesDistances[neighbor][selectedEndingCityId][selectedEndingCity] and lessDistantSum > currentSum:
             if not visited.get(neighbor):
                 lessDistantCity = neighbor
                 lessDistantSum = currentSum
+                cityValue = citiesDistances[neighbor][selectedEndingCityId][selectedEndingCity]
     i += 1
     city = lessDistantCity
-    sumCosts = lessDistantSum
+    sumCosts = lessDistantSum - cityValue
     visited[city] = i
 
     if city == selectedEndingCity:
